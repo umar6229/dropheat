@@ -1,0 +1,60 @@
+.messageContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .messageContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .messageHeader {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .username {
+    color: #a3a3b7;
+    font-family:
+      Space Grotesk,
+      sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  
+  .timestamp {
+    color: #676778;
+    font-family:
+      Space Grotesk,
+      sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  
+  .messageText {
+    color: #fff;
+    letter-spacing: -0.28px;
+    background-color: #222228;
+    border-radius: 4px;
+    max-width: 218px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  
+  @media (width <= 640px) {
+    .messageContainer {
+      gap: 6px;
+    }
+  
+    .messageText {
+      font-size: 13px;
+      line-height: 18px;
+    }
+  }
+  

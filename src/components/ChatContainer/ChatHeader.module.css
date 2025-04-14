@@ -1,0 +1,74 @@
+.header {
+    z-index: 10;
+    color: #fff;
+    background-color: #16161b;
+    border-color: #29292f;
+    border-bottom-width: 1px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 12px 14px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 21px 58px #000000a6;
+  }
+  
+  .title {
+    white-space: nowrap;
+    letter-spacing: -0.3px;
+    align-self: stretch;
+    gap: 8px;
+    margin: auto 0;
+    font-family:
+      Space Grotesk,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  .statusWrapper {
+    letter-spacing: -0.28px;
+    justify-content: start;
+    align-items: center;
+    gap: 4px;
+    font-family:
+      IBM Plex Sans,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    display: flex;
+  }
+  
+  .onlineCount {
+    background-color: #1a1a20;
+    border-radius: 8px;
+    padding: 6px;
+  }
+  .hideButton{
+    border: 1px solid var(--Shade-2, #1a1a20);
+    cursor: pointer;
+    background-color: #16161b;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 47px;
+    height: 47px;
+    padding: 12px;
+    display: flex;
+  }
+  .hideIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 8px;
+    width: 32px;
+  }
+  

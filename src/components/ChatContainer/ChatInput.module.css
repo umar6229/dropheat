@@ -1,0 +1,82 @@
+.inputWrapper {
+    z-index: 10;
+    background-color: #16161b;
+    border-color: #29292f;
+    border-top-width: 1px;
+    width: 100%;
+    padding: 15px;
+    box-shadow: 0 -4px 58px #000000a6;
+  }
+  
+  .inputContainer {
+    background-color: #29292f;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+    width: 100%;
+    padding-left: 18px;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .messageInput {
+    color: #676778;
+    letter-spacing: -0.28px;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-family:
+      IBM Plex Sans,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 15px 0;
+  }
+  
+  .messageInput::placeholder {
+    color: #676778;
+  }
+  
+  .actionButtons {
+    display: flex;
+    align-items: stretch;
+    gap: 18px;
+  }
+  
+  .attachIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 20px;
+    margin: auto 0;
+  }
+  
+  .sendIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 48px;
+  }
+  
+  .attachButton,
+  .sendButton {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .attachButton:focus,
+  .sendButton:focus {
+    outline: 2px solid #676778;
+    border-radius: 4px;
+  }
+  

@@ -1,0 +1,206 @@
+.header {
+    border-bottom: 1.5px solid var(--Shade-2, #1a1a20);
+    background-color: #16161b;
+    height: 68px;
+  }
+  
+  .headerContent {
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 24px;
+    display: flex;
+  }
+  
+  @media (width <= 640px) {
+    .headerContent {
+      padding: 0 16px;
+    }
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 159px;
+    height: 28px;
+    margin-right: 34px;
+  }
+  
+  .navigation {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navList {
+    align-items: center;
+    gap: 32px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  @media (width <= 991px) {
+    .navList {
+      gap: 20px;
+    }
+  }
+  
+  @media (width <= 640px) {
+    .navList {
+      display: none;
+    }
+  }
+  
+  .navItem {
+    cursor: pointer;
+  }
+  
+  .navLink {
+    align-items: center;
+    gap: 8px;
+    display: flex;
+    text-decoration: none;
+  }
+  
+  .navLabel {
+    color: #a3a3b7;
+    letter-spacing: -0.3px;
+    font-family:
+      Space Grotesk,
+      sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  .userActions {
+    align-items: center;
+    gap: 10px;
+    display: flex;
+  }
+  
+  @media (width <= 991px) {
+    .userActions {
+      gap: 8px;
+    }
+  }
+  
+  .languageSelector,
+  .currencySelector {
+    border: 1px solid var(--Shade-2, #1a1a20);
+    cursor: pointer;
+    background-color: #16161b;
+    border-radius: 8px;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+    display: flex;
+  }
+  
+  @media (width <= 640px) {
+    .languageSelector,
+    .currencySelector {
+      display: none;
+    }
+  }
+  
+  .flagIcon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .selectorText {
+    color: #fff;
+    letter-spacing: -0.3px;
+    font-family:
+      Space Grotesk,
+      sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  .chevronIcon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .currencyIcon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .authButton {
+    color: #fff;
+    letter-spacing: -0.3px;
+    cursor: pointer;
+    background: linear-gradient(#7848ff 0%, #6254ff 100%);
+    border-radius: 8px;
+    padding: 14px 24px;
+    font-family:
+      Space Grotesk,
+      sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  @media (width <= 991px) {
+    .authButton {
+      padding: 12px 20px;
+    }
+  }
+  
+  .chatButton {
+    border: 1px solid var(--Shade-2, #1a1a20);
+    cursor: pointer;
+    background-color: #16161b;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 47px;
+    height: 47px;
+    padding: 12px;
+    display: flex;
+  }
+  
+  @media (width <= 640px) {
+    .chatButton {
+      width: 40px;
+      height: 40px;
+      padding: 10px;
+    }
+  }
+  
+  .chatIcon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Hover states */
+  .navLink:hover .navLabel {
+    color: #fff;
+  }
+  
+  .languageSelector:hover,
+  .currencySelector:hover,
+  .chatButton:hover {
+    border-color: #363640;
+  }
+  
+  .authButton:hover {
+    background: linear-gradient(#8959ff 0%, #7365ff 100%);
+  }
+  
+  /* Focus states for accessibility */
+  .navLink:focus-visible,
+  .languageSelector:focus-visible,
+  .currencySelector:focus-visible,
+  .authButton:focus-visible,
+  .chatButton:focus-visible {
+    outline: 2px solid #7848ff;
+    outline-offset: 2px;
+  }
+  

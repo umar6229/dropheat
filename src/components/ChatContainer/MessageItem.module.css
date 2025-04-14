@@ -1,0 +1,60 @@
+.messageWrapper {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+  }
+  
+  .avatar {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 4px;
+    flex-shrink: 0;
+    width: 38px;
+  }
+  
+  .messageContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .messageHeader {
+    display: flex;
+    gap: 4px;
+    font-family:
+      Space Grotesk,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-size: 13px;
+  }
+  
+  .username {
+    color: #a3a3b7;
+  }
+  
+  .timestamp {
+    color: #676778;
+  }
+  
+  .messageText {
+    color: #fff;
+    letter-spacing: -0.28px;
+    background-color: #222228;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 234px;
+    margin-top: 8px;
+    padding: 4px 8px;
+    font-family:
+      IBM Plex Sans,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  

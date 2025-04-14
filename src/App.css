@@ -1,0 +1,25 @@
+.body{
+  background-color: #020202c2;
+  padding: 0;
+  margin: 0;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  gap: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar-container{
+      display: none;
+  }
+  .chat-container{
+      display: none;
+  }
+
+} 

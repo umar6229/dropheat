@@ -1,0 +1,153 @@
+.livedrops {
+    background-color: #16161b;
+    border-radius: 8px;
+    padding-top: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    overflow: hidden;
+  }
+  
+  .title {
+    color: #fff;
+    font-family:
+      IBM Plex Sans,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.28px;
+    margin-left: 13px;
+  }
+  
+  .dropsContainer {
+    display: flex;
+    gap: 6px;
+    margin-top: 9px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    scroll-behavior: smooth;
+    padding: 4px;
+    margin: 9px -4px 0; /* Compensate for padding */
+  }
+  
+  .dropsContainer::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+  }
+  
+  .dropCard {
+    background-color: #1a1a20;
+    border-radius: 8px;
+    width: 169px;
+    padding: 8px 21px 8px 0;
+    display: flex;
+    align-items: stretch;
+    gap: 6px;
+    overflow: hidden;
+  }
+  
+  .accentLine {
+    width: 2px;
+    height: 55px;
+    border-radius: 6px;
+    margin: auto 0;
+  }
+  
+  .cardContent {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .productImage {
+    width: 60px;
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    margin: auto 0;
+  }
+  
+  .cardInfo {
+    margin: auto 0;
+    align-self: stretch;
+  }
+  
+  .priceText {
+    color: #a3a3b7;
+    font-family:
+      Space Grotesk,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+  }
+  
+  .dollars {
+    color: #fff;
+  }
+  
+  .userBadge {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #676778;
+    font-family:
+      IBM Plex Sans,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: -0.24px;
+    white-space: nowrap;
+  }
+  
+  .userAvatar {
+    width: 14px;
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 3px;
+    margin: auto 0;
+  }
+  
+  .username {
+    margin: auto 0;
+    align-self: stretch;
+  }
+  
+  .decorationImage {
+    width: 71px;
+    aspect-ratio: 0.95;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 8px;
+  }
+  
+  @media (width <= 991px) {
+    .title {
+      margin-left: 10px;
+    }
+  
+    .dropsContainer {
+      max-width: 100%;
+    }
+  
+    .userBadge {
+      white-space: initial;
+    }
+  }
+  

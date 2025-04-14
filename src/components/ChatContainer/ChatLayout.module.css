@@ -1,0 +1,14 @@
+.chatContainer {
+    background-color: #16161b;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+  }
+ 

@@ -1,0 +1,29 @@
+.inputDesignSection {
+    max-width: 66px;
+  }
+  
+  .imageStack {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .img {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  .img2,
+  .img3,
+  .img4 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 6px;
+  }
+  

@@ -1,0 +1,30 @@
+.chatContainer {
+    background-color: #1a1a1d;
+    width: 284px;
+    /* max-height: 100vh; */
+    overflow: hidden;
+    padding: 24px;
+    font-family:
+      IBM Plex Sans,
+      sans-serif;
+  }
+  
+  .messageList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  @media (width <= 991px) {
+    .chatContainer {
+      width: 100%;
+      padding: 16px;
+    }
+  }
+  
+  @media (width <= 640px) {
+    .chatContainer {
+      padding: 12px;
+    }
+  }
+  

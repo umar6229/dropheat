@@ -1,0 +1,112 @@
+.sidebar {
+    /* max-width: 66px; */
+    overflow: hidden;
+  }
+  
+  .menuitems {
+    width: 100%;
+  }
+  
+  .menuitems button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+  }
+  
+  .img {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+  }
+  
+  .img2,
+  .img3,
+  .img4,
+  .img5,
+  .img6 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 6px;
+  }
+  
+  .div {
+    width: 100%;
+    margin-top: 340px;
+  }
+  
+  .div button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+  }
+  
+  .img7 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  .img8,
+  .img9,
+  .img10 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 6px;
+  }
+  
+  .socials {
+    background-color: #16161b;
+    border-radius: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 12px;
+    padding: 28px 13px;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .socials nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .socials a {
+    display: block;
+    cursor: pointer;
+  }
+  
+  .img11 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 20px;
+  }
+  
+  .img12,
+  .img13,
+  .img14 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 20px;
+    margin-top: 16px;
+  }
+  

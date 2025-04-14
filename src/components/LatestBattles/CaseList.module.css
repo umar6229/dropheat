@@ -1,0 +1,33 @@
+.caseList {
+    background-color: #13131a;
+    flex-direction: column;
+    gap: 12px;
+    max-width: none;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+    display: flex;
+  }
+  
+  @media (width <= 991px) {
+    .caseList {
+      max-width: 991px;
+    }
+  }
+  
+  @media (width <= 640px) {
+    .caseList {
+      gap: 8px;
+      max-width: 640px;
+      padding: 8px;
+    }
+  }
+  
+  @media (width <= 480px) {
+    .caseList {
+      gap: 6px;
+      padding: 6px;
+    }
+  }
+  

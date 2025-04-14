@@ -1,0 +1,204 @@
+.div {
+    border-bottom: 1.5px solid var(--Shade-2, #1a1a20);
+    background-color: #16161b;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+    padding: 0 24px;
+    display: flex;
+  }
+  @media (width<=640px) {
+    .div {
+      padding: 0 16px;
+    }
+  }
+  .div2 {
+    align-items: center;
+    gap: 32px;
+    display: flex;
+  }
+  @media (width<=991px) {
+    .div2 {
+      gap: 20px;
+    }
+  }
+  @media (width<=640px) {
+    .div2 {
+      display: none;
+    }
+  }
+  .div3 {
+    cursor: pointer;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+  }
+  .div4 {
+    color: #a3a3b7;
+    letter-spacing: -0.3px;
+    font-family:
+      Space Grotesk,
+      sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .div5 {
+    cursor: pointer;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+  }
+  .div6 {
+    color: #a3a3b7;
+    letter-spacing: -0.3px;
+    font-family:
+      Space Grotesk,
+      sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .div7 {
+    cursor: pointer;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+  }
+  .div8 {
+    color: #a3a3b7;
+    letter-spacing: -0.3px;
+    font-family:
+      Space Grotesk,
+      sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .div9 {
+    cursor: pointer;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+  }
+  .div10 {
+    color: #a3a3b7;
+    letter-spacing: -0.3px;
+    font-family:
+      Space Grotesk,
+      sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .div11 {
+    cursor: pointer;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+  }
+  .div12 {
+    color: #a3a3b7;
+    letter-spacing: -0.3px;
+    font-family:
+      Space Grotesk,
+      sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .div13 {
+    align-items: center;
+    gap: 10px;
+    display: flex;
+  }
+  @media (width<=991px) {
+    .div13 {
+      gap: 8px;
+    }
+  }
+  .div14 {
+    border: 1px solid var(--Shade-2, #1a1a20);
+    cursor: pointer;
+    background-color: #16161b;
+    border-radius: 8px;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+    display: flex;
+  }
+  @media (width<=640px) {
+    .div14 {
+      display: none;
+    }
+  }
+  .flagIcon {
+    width: 20px;
+    height: 20px;
+  }
+  .div15 {
+    color: #fff;
+    letter-spacing: -0.3px;
+    font-family:
+      Space Grotesk,
+      sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .div16 {
+    border: 1px solid var(--Shade-2, #1a1a20);
+    cursor: pointer;
+    background-color: #16161b;
+    border-radius: 8px;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+    display: flex;
+  }
+  @media (width<=640px) {
+    .div16 {
+      display: none;
+    }
+  }
+  .div17 {
+    color: #fff;
+    letter-spacing: -0.3px;
+    font-family:
+      Space Grotesk,
+      sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .div18 {
+    color: #fff;
+    letter-spacing: -0.3px;
+    cursor: pointer;
+    background: linear-gradient(#7848ff 0%, #6254ff 100%);
+    border-radius: 8px;
+    padding: 14px 24px;
+    font-family:
+      Space Grotesk,
+      sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  @media (width<=991px) {
+    .div18 {
+      padding: 12px 20px;
+    }
+  }
+  .div19 {
+    border: 1px solid var(--Shade-2, #1a1a20);
+    cursor: pointer;
+    background-color: #16161b;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 47px;
+    height: 47px;
+    padding: 12px;
+    display: flex;
+  }
+  @media (width<=640px) {
+    .div19 {
+      width: 40px;
+      height: 40px;
+      padding: 10px;
+    }
+  }
+  

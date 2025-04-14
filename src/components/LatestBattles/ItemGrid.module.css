@@ -1,0 +1,55 @@
+.gridContainer {
+  flex-grow: 1;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.itemGrid {
+  background-color: #2988520d;
+  border: 1px solid #39ff88;
+  border-radius: 8px;
+  gap: 22px;
+  height: 97px;
+  padding: 3px;
+  display: flex;
+}
+
+.itemImage {
+  object-fit: cover;
+  width: 108px;
+  height: 86px;
+}
+
+@media (width <= 991px) {
+  .gridContainer {
+    margin: 0 0 16px;
+  }
+}
+
+@media (width <= 640px) {
+  .itemGrid {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    height: auto;
+    min-height: 97px;
+    padding: 8px;
+  }
+
+  .itemImage {
+    width: 80px;
+    height: 64px;
+  }
+}
+
+@media (width <= 480px) {
+  .itemGrid {
+    gap: 8px;
+    padding: 6px;
+  }
+
+  .itemImage {
+    width: 70px;
+    height: 56px;
+  }
+}
